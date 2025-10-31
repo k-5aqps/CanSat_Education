@@ -4,7 +4,7 @@
 
 I/Oポートのうち，デジタル信号に関するピンのことで，ユーザ側で任意に制御可能なもののこと．
 RaspberryPiでは，以下の図のように40piが割り当てられている．<br>
-![40pi-GPIOピン配置](../data/img/site/raspberrypi-pinout-40-1.png)(https://iot.keicode.com/raspberry-pi/pinout.phpより)
+![40pi-GPIOピン配置](../data/img/site/raspberrypi-pinout-40-1.png)
 <br>
 注意すべき点は，3.3Vや5Vの電源が割り当てられたピン，GNDが割り当てられたピンなど，特別な役割を持ったピンには，ユーザ側で入出力を制御できない．
 また，I2CやSPI，UARTといった通信を行う際には，その機能を有したピンを選択する必要がある．
