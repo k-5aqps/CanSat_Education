@@ -5,25 +5,21 @@ GPIOの設定をする
 """
 
 def move(duty:int,dir:str) -> None:
-    if dir == "f":
+    if dir == "forward":
         """
         前進
         """
-    elif dir == "b":
-        """
-        後進
-        """
-    elif dir == "r":
+    elif dir == "right":
         """
         右折
         """
-    elif dir == "l":
+    elif dir == "left":
         """
         左折
         """
     else:
         """
-        while文を抜ける
+        停止
         """
 
 if __name__ == "__main__":
