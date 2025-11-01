@@ -3,8 +3,8 @@
 """
 GPIOの設定をする
 """
-while True:
-    dir = input("進行方向\n>>>")
+
+def move(duty:int,dir:str) -> None:
     if dir == "f":
         """
         前進
@@ -25,3 +25,7 @@ while True:
         """
         while文を抜ける
         """
+
+if __name__ == "__main__":
+    duty,dir = input("duty,dir = ").split(",")
+    move(duty,dir)
